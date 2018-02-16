@@ -9,6 +9,49 @@
 
 <img src="https://raw.githubusercontent.com/alirezaashrafi/Codia/master/codia.jpg"/>
 
+
+[![](https://jitpack.io/v/alirezaashrafi/codia.svg)](https://jitpack.io/#alirezaashrafi/codia)
+
+
+
+## <i class="icon-file"></i> How to download
+#### Gradle
+###### Add it in your root build.gradle at the end of repositories:
+```java
+    allprojects {
+         repositories {
+             ...
+             maven { url 'https://jitpack.io' }
+         }
+    }
+```
+###### add this line to your module build.gradle dependecies block:
+```java
+    compile 'com.github.alirezaashrafi:codia:codia'
+```
+
+### Maven
+###### Add the JitPack repository to your build file
+```xml
+  <repositories>
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+    </repository>
+  </repositories>
+```
+
+###### Add the dependency
+
+```xml
+  <dependency>
+    <groupId>com.github.alirezaashrafi</groupId>
+    <artifactId>codia</artifactId>
+    <version>codia</version>
+  </dependency>
+```
+---
+
 # android & java example
 
 
