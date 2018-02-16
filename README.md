@@ -1,6 +1,6 @@
 # Codia
 ### Easy and Fast android - php - java Encryption Decryption library
- - support utf-8 Characters Arabic Chinese Farsi & .... Characters
+ - Support UTF-8 Characters Arabic Chinese Farsi & .... Characters
  - Without adding additional characters
  - Extremely fast encryption 100MB string per second
  - Optimized for JSON encryption
