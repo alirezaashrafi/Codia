@@ -1,16 +1,17 @@
 # Codia
+ [![](https://jitpack.io/v/alirezaashrafi/codia.svg)](https://jitpack.io/#alirezaashrafi/codia)
 ### Easy and Fast android - php - java Encryption Decryption library
  - Support UTF-8 Characters Arabic Chinese Farsi & .... Characters
  - Without adding additional characters
- - Extremely fast encryption 100MB string per second
+ - Extremely fast encrypt 100MB string per second
  - Optimized for JSON encryption
 <br>
-<br>
+
 
 <img src="https://raw.githubusercontent.com/alirezaashrafi/Codia/master/codia.jpg"/>
 
 
-[![](https://jitpack.io/v/alirezaashrafi/codia.svg)](https://jitpack.io/#alirezaashrafi/codia)
+
 
 
 
