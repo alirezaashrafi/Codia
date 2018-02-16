@@ -24,6 +24,13 @@
     $decodedText = $codia->decode($encodedText);
 
 ```
+# kotlin example
+```kt
+    val text = "Easy and Fast android - php - java Encryption Decryption library"
+
+    val encodedText = Codia.encode(text)
+    val decodedText = Codia.decode(encodedText)
+```
 # sample Encryption and Decryption process diagram
 <img src="https://raw.githubusercontent.com/alirezaashrafi/Codia/master/diagram.jpg" width="50%"/>
 
