@@ -11,7 +11,8 @@ class Kotlin {
     private fun kotlin() {
         val text = "Easy and Fast android - php - java Encryption Decryption library"
 
-        val encodedText = Codia.encode(text)
-        val decodedText = Codia.decode(encodedText)
+        val codia = Codia("Your Own Private Key")
+        val encodedText = codia.encode(text)
+        val decodedText = codia.decode(encodedText)
     }
 }

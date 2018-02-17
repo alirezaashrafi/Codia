@@ -5,6 +5,7 @@
  - Without adding additional characters
  - Extremely fast encrypt 100MB string per second
  - Optimized for JSON encryption
+ - Min Sdk Version api 1
 <br>
 
 
@@ -57,20 +58,20 @@
 
 
 ```java
-     String text = "Easy and Fast android - php - java Encryption Decryption library";
+    Codia codia = new Codia("Your Own Private Key");
 
-     String encodedText = Codia.encode(text);
-     String decodedText = Codia.decode(encodedText);
-
+    String text = "Easy and Fast android - php - java Encryption Decryption library";
+    String encoded = codia.encode(text);
+    String decoded = codia.decode(encoded);
 ```
 
 
 # php example
 ```php
     require_once __DIR__.'/lib/Codia.php';
-    $codia = new Codia();
-    $text = "Easy and Fast android - php - java Encryption Decryption library";
+    $codia = new Codia("Your Own Private Key");
 
+    $text = "Easy and Fast android - php - java Encryption Decryption library";
     $encodedText = $codia->encode($text);
     $decodedText = $codia->decode($encodedText);
 
@@ -79,8 +80,9 @@
 ```kt
     val text = "Easy and Fast android - php - java Encryption Decryption library"
 
-    val encodedText = Codia.encode(text)
-    val decodedText = Codia.decode(encodedText)
+    val codia = Codia("Your Own Private Key")
+    val encodedText = codia.encode(text)
+    val decodedText = codia.decode(encodedText)
 ```
 # sample Encryption and Decryption process diagram
 <img src="https://raw.githubusercontent.com/alirezaashrafi/Codia/master/diagram.jpg" width="50%"/>

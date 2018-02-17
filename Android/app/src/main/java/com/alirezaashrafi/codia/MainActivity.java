@@ -13,9 +13,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        String text = "Easy and Fast android - php - java Encryption Decryption library";
+        Codia codia = new Codia("Your Own Private Key");
 
-        String encodedText = Codia.encode(text);
-        String decodedText = Codia.decode(encodedText);
+        String text = "Easy and Fast android - php - java Encryption Decryption library";
+        String encoded = codia.encode(text);
+        String decoded = codia.decode(encoded);
     }
 }
