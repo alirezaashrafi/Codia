@@ -29,7 +29,7 @@
 ```
 ###### add this line to your module build.gradle dependecies block:
 ```java
-    compile 'com.github.alirezaashrafi:codia:codia'
+    compile 'com.github.alirezaashrafi:codia:2.0.0'
 ```
 
 ### Maven
@@ -49,7 +49,7 @@
   <dependency>
     <groupId>com.github.alirezaashrafi</groupId>
     <artifactId>codia</artifactId>
-    <version>codia</version>
+    <version>2.0.0</version>
   </dependency>
 ```
 ---
