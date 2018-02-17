@@ -6,6 +6,7 @@
  - Extremely fast encrypt 100MB string per second
  - Optimized for JSON encryption
  - Min Sdk Version api 1
+ #### Do not forget the star:)⭐️
 <br>
 
 
